@@ -1,0 +1,18 @@
+
+  #bnw{
+    position: absolute;
+    top:1vh;
+    left:50px;
+  }
+  #colored{
+    position: absolute;
+    top:1vh;
+    left:50px;
+    clip-path:polygon(0 0,0.01% 0,0.01% 100%,0 100%);
+  }
+  .img-container{
+
+    width:300px;
+    margin:0px auto;
+    position: relative;
+  }

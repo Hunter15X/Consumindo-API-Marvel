@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #1a1a1a;
+    background-image: url(../imagens/deadpool_peq.jpeg);
+    background-attachment: fixed;
+}
+
+#bnw{
+    position: absolute;
+    top:1vh;
+    left:50px;
+  }
+  #colored{
+    position: absolute;
+    top:1vh;
+    left:50px;
+    clip-path:polygon(0 0,0.01% 0,0.01% 100%,0 100%);
+  }
+  .img-container{
+    position: fixed;
+    width:300px;
+    margin:0px auto;
+  }
+
+#caixa_menu{
+    width: inherit;
+    height: 100px;
+    background-color: black;
+}
+
+#menu_logo{
+    width: 300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:;
+
+}
+
+#caixa_conteudo_center{
+  width: 1200px;
+  min-height: 1200px;
+  height: auto;
+  background-color:;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+#caixa_conteudo{
+    width: inherit;
+    min-height: 1400px;
+    height: auto;
+    background-color: ;
+}
+
+#caixa_inputs{
+    width: inherit;
+    height: 100px;
+    background-color;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+#txtBusca{
+    width: 500px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-color: white;
+}
+
+#btnPesquisa{
+    width: 80px;
+    height: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white ;
+    border: 1px solid black;
+}
+
+#btnPesquisa:hover{
+    cursor: pointer;
+}
+
+#personagens{
+    width: inherit;
+    min-height: 1200px;
+    height: auto;
+    background-color:rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#nome_personagem{
+    width: inherit;
+    height: 100px;
+    background-color: #e60000;
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imagem_personagem{
+    width: 500px;
+    height: 500px;
+    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: 1.2s;
+}
+
+#imagem_personagem:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#descricao_personagem{
+    width: 500px;
+    min-height: 100px;
+    height: auto;
+    background-color:;
+    color: white;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: Comic Sans Ms;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+#quadrinhos{
+    width: inherit;
+    min-height: 600px;
+    height: auto;
+    background-color: ;
+    margin-top: 10px;
+}
+
+#titulo_quadrinhos{
+    width: inherit;
+    height: 100px;
+    background-color:#e60000;
+    font-family: fantasy;
+    color: white;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#comics{
+    width: inherit;
+    min-height: 1220px;
+    height: auto;
+    background-color:rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.item_comics{
+    width: 350px;
+    min-height: 600px;
+    height: auto;
+    background-color: ;
+    margin-left: 30px;
+    float: left;
+    transition: 0.5s;
+}
+
+.item_comics:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.img_comics{
+    width: inherit;
+    height: 400px;
+    background-color: black;
+}
+
+.nome_comics{
+    width: inherit;
+    min-height: 50px;
+    height: auto;
+    background-color: black;
+    font-family: Comic Sans Ms;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.descricao_comics{
+    width: inherit;
+    min-height: 100px;
+    height: auto;
+    background-color: black;
+    font-family: Comic Sans Ms;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer{
+    width: inherit;
+    height: 50px;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    font-family: Comic Sans Ms;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
